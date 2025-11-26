@@ -44,10 +44,85 @@
 </body>
 <style>
     nav.navbar {
-    background: #ffffff !important;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    position: relative;
-    z-index: 1000;  /* ensures navbar stays above slider */
-}
+        background: #ffffff !important;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        position: relative;
+        z-index: 1000;
+        /* ensures navbar stays above slider */
+    }
+
+    .feature-card {
+        transition: all 0.3s ease;
+        border-radius: 12px;
+    }
+
+    .feature-card:hover {
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        transform: translateY(-5px);
+    }
+
+    .feature-icon {
+        font-size: 50px;
+        color: #F79E2A;
+        /* your brand color */
+        margin-bottom: 20px;
+    }
+
+    .fixed-top {
+        background: #ffffff !important;
+        /* White background */
+        z-index: 9999 !important;
+        /* Keep menu above slider */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        /* Light shadow */
+    }
+
+    /* Push slider down so it doesn’t hide behind navbar */
+    #header-carousel {
+        margin-top: 120px;
+        /* Adjust according to your menu height */
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        /* Ensures image fills nicely */
+    }
+
+    /* Large screens (default) */
+    /* #header-carousel .carousel-item {
+        height: 600px;
+    } */
+
+    #header-carousel .carousel-item img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* Tablets */
+    @media (max-width: 992px) {
+        #header-carousel .carousel-item {
+            height: 450px;
+        }
+    }
+
+    /* Mobile devices */
+    @media (max-width: 576px) {
+        #header-carousel .carousel-item {
+            height: 300px;
+        }
+    }
+
+    .top-info {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        /* prevents breaking into multiple lines */
+        gap: 20px;
+        /* spacing between address & email */
+    }
 </style>
+
 </html>

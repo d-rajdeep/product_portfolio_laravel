@@ -53,16 +53,22 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                        <img class="img-fluid w-100" src="img/about.jpg">
+                        <img class="img-fluid w-100" src="img/about.png">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-5 mb-4">Best Organic Fruits And Vegetables</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p><i class="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
-                    <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                    <p><i class="fa fa-check text-primary me-3"></i>Clita duo justo magna dolore erat amet</p>
+                    <h1 class="display-5 mb-4">About Kirtidhara</h1>
+                    <p style="text-align:justify">We established in the year 1991. Since it’s incorporation in the FMCG
+                        business. We
+                        serve many valued customers with utmost priority. Gradually, we have established our brand value in
+                        Guwahati market as well as in entire north east. Our main Moto is customers satisfaction in terms of
+                        quality & price in the product. Our qualified teams of different fields work hard to hold the trust
+                        of customers and We believe in maintaining long term relations with our valued customers.<br><br>
+                        We use only 100% pure raw material procured from the best pulses/grain growing regions. This goes
+                        through several stages of sorting purification process, so that you get the purest freshest quality
+                        product. We call this the Agarwal promise, a promise to bring our product with a naturally earthy
+                        aroma with perfect colour, specially packed to maintain its freshness. So go ahead and experience
+                        the quality product !</p>
                     <a class="btn btn-primary rounded-pill py-3 px-5 mt-3" href="">Read More</a>
                 </div>
             </div>
@@ -77,39 +83,42 @@
             <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
                 <h1 class="display-5 mb-3">Our Features</h1>
-                <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                {{-- <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p> --}}
             </div>
+
             <div class="row g-4">
+
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-1.png" alt="">
-                        <h4 class="mb-3">Natural Process</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero
-                            dolor duo.</p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
+                    <div class="bg-white text-center h-100 p-4 p-xl-5 feature-card">
+                        <i class="fa-solid fa-award feature-icon"></i>
+                        <h4 class="mb-3">30+ Years of Trusted Excellence</h4>
+                        <p class="mb-0">Serving valued customers since 1991, building strong brand value across Guwahati
+                            and the entire North-East.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-2.png" alt="">
-                        <h4 class="mb-3">Organic Products</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero
-                            dolor duo.</p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
+                    <div class="bg-white text-center h-100 p-4 p-xl-5 feature-card">
+                        <i class="fa-solid fa-handshake feature-icon"></i>
+                        <h4 class="mb-3">Quality & Customer Satisfaction First</h4>
+                        <p class="mb-0">Our focus is delivering top-quality products at the best price through dedicated,
+                            skilled teams committed to long-term relationships.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="bg-white text-center h-100 p-4 p-xl-5">
-                        <img class="img-fluid mb-4" src="img/icon-3.png" alt="">
-                        <h4 class="mb-3">Biologically Safe</h4>
-                        <p class="mb-4">Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero
-                            dolor duo.</p>
-                        <a class="btn btn-outline-primary border-2 py-2 px-4 rounded-pill" href="">Read More</a>
+                    <div class="bg-white text-center h-100 p-4 p-xl-5 feature-card">
+                        <i class="fa-solid fa-wheat-awn feature-icon"></i>
+                        <h4 class="mb-3">Pure Ingredients, The Agarwal Promise</h4>
+                        <p class="mb-0">Using 100% pure raw materials processed through advanced sorting and purification
+                            to ensure fresh, aromatic, premium-quality products.</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+
     <!-- Feature End -->
 
 
@@ -121,11 +130,11 @@
                     <div class="section-header text-start mb-5 wow fadeInUp" data-wow-delay="0.1s"
                         style="max-width: 500px;">
                         <h1 class="display-5 mb-3">Our Products</h1>
-                        <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.
-                        </p>
+                        {{-- <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.
+                        </p> --}}
                     </div>
                 </div>
-                <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                {{-- <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
                         <li class="nav-item me-2">
                             <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill"
@@ -138,7 +147,7 @@
                             <a class="btn btn-outline-primary border-2" data-bs-toggle="pill" href="#tab-3">Fresh</a>
                         </li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane fade show p-0 active">

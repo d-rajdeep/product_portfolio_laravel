@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3CB815;
+    --primary: #F79E2A;
     --secondary: #F65005;
     --light: #F7F8FC;
     --dark: #111111;
@@ -179,7 +179,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
