@@ -782,13 +782,15 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
-                    <h1 class="display-5 text-white mb-3">Visit Our Firm</h1>
-                    <p class="text-white mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-                        diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat
-                        amet. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.</p>
+                    <h1 class="display-5 text-white mb-3">Visit Our Store</h1>
+                    <p class="text-white mb-0">We use only 100% pure raw material procured from the best pulses/grain
+                        growing regions. This goes through several stages of sorting purification process, so that you get
+                        the purest freshest quality product. We call this the Agarwal promise, a promise to bring our
+                        product with a naturally earthy aroma with perfect colour, specially packed to maintain its
+                        freshness. So go ahead and experience the quality product !</p>
                 </div>
                 <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="">Visit Now</a>
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="tel: 8876504123">Call Now</a>
                 </div>
             </div>
         </div>
@@ -797,7 +799,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid bg-light bg-icon py-6 mb-5">
+    {{-- <div class="container-fluid bg-light bg-icon py-6 mb-5">
         <div class="container">
             <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s"
                 style="max-width: 500px;">
@@ -903,6 +905,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Blog End -->
 @endsection

@@ -6,7 +6,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
 
 // Admin Login
 Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('admin.login');
@@ -30,5 +35,4 @@ Route::middleware(['auth:admin'])->group(function () {
 
     // Logout
     Route::post('/admin/logout', [AuthController::class, 'logout'])->name('admin.logout');
-
 });
